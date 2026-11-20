@@ -3,6 +3,8 @@
 Unofficial OrangeFox Recovery **R12.0_1** for the **Xiaomi 17 Pro Max** (`popsicle`, `popsicle_global`, `popsicle_in`).
 
 > **Status:** Unofficial Beta. Popsicle only — do not flash on pudding, pandora, or any other device.
+>
+> **Revision 2 — 2026-11-20:** NXP decryption hotfix. If you downloaded the first build, replace it.
 
 This build is based on [marcmyworld's OrangeFox R12.0 for the Xiaomi 17 (Pudding)](https://xdaforums.com/t/recovery-unofficial-beta-orangefox-recovery-r12-0-pudding.4808550/).
 
@@ -14,8 +16,8 @@ See [Releases](https://github.com/OctoDevStudios/OrangeFox-popsicle/releases).
 - `OrangeFox-popsicle-R12.0_1.zip` — installer ZIP for an existing TWRP/OrangeFox
 
 ```text
-28828ef5b1fa256a3256b4ffd010613dfa1ddca0b89133c10668c33e145c21e8  OrangeFox-popsicle-recovery-FUNCTIONAL.img
-d187a5b2342ce5e6c769eb15bdc12b08b15089cbad9248d40ba2ffa1b8cbecb9  OrangeFox-popsicle-R12.0_1.zip
+9f1f3d7fc3ff0cc639ccd5d96be7dd3dcea6ec3f103ed58869e8c8b55653c81e  OrangeFox-popsicle-recovery-FUNCTIONAL.img
+788550ea79f672c304207ce4bc40463f767b8190560f3e2189e50f77db0faee6  OrangeFox-popsicle-R12.0_1.zip
 ```
 
 ## Installation
@@ -42,7 +44,7 @@ fastboot reboot recovery
 
 ## Credits
 
-- **marcmyworld** — [OrangeFox R12.0 for Xiaomi 17 (Pudding)](https://xdaforums.com/t/recovery-unofficial-beta-orangefox-recovery-r12-0-pudding.4808550/) — base recovery and thread
+- **marcmyworld** — [OrangeFox R12.0 for Xiaomi 17 (Pudding)](https://xdaforums.com/t/recovery-unofficial-beta-orangefox-recovery-r12-0-pudding.4808550/) — base recovery, device tree and thread
 - TeamWin — TWRP
 - OrangeFox Team
 - YuKongA — TWRP `sm8850` base trees
